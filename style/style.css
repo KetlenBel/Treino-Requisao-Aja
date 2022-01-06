@@ -1,0 +1,58 @@
+section{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 50px 50px;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.conteudo-card{
+    display: block;
+    background: #fb3;
+    font-family:'Roboto';
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.conteudo-card p {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 0.875rem;
+    padding-left: 10px;
+    margin: 4px;
+}
+
+.conteudo-card p::before{
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 5px;
+    margin-right: 5px;
+    background-color: rgb(246, 37, 89);
+}
+
+body{
+    background: #fffad2;
+}
+
+body h1, h2{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+body h2 {
+    font-size: 2rem;
+}
+body h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+.stilo-card input{
+    margin-left: 2.5vh;
+    width: 15vh;
+    height: 1.5vh;
+    border: none;
+    border-radius: 15px;
+}
