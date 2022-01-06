@@ -1,2 +1,2 @@
-# Treino-Requisao-Aja
+# Treino-Requisao-Ajax
 Estudos sore ajax e DOM
